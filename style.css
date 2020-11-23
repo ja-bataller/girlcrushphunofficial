@@ -1,0 +1,88 @@
+body,ul,li,h2{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+/* WEAPON LOGO HEADER  */
+.banner h1{
+    background-color: white;
+    color: white;
+    padding: 41px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/* NAVIGATION BAR */
+nav{
+    background-color: #F9DAD9;
+    padding: 20px;
+    position: sticky;
+    top: 135px;
+    z-index: 1;
+}
+
+nav ul{
+    white-space: nowrap;
+    background-color:#F9DAD9;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    background-color:#F9DAD9;
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 5%;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: #BB0000;
+}
+
+/* CARD  */
+.container{
+    text-align: center;
+    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+.container h1{
+    color: white;
+    padding-bottom: 3%;
+}
+
+.pop{
+    transition: all .2s ease-in-out
+}
+
+.pop:hover {
+    transform: scale(1.1);
+}
+
+
+.headerlogo {
+    display: block;
+    padding-top: 7%;
+}
+
+/* FOOTER COPYRIGHT */
+
+.copyright{
+    text-align: center;
+    color: white;
+    background-color: #F9DAD9;
+}
